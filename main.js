@@ -31,7 +31,7 @@ const generateDivs = (value) => {
 const createDiv = letter => {
   const div = document.createElement("div");
   div.className = "alert alert-success";
-  div.innerHTML = `<strong>${letter}</strong>`;
+  div.innerHTML = `<strong class="div--letter">${letter}</strong>`;
   return div;
 };
 

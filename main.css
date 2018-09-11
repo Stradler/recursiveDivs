@@ -9,3 +9,8 @@
 .form {
   margin-bottom: 30px;
 }
+
+.div--letter {
+  text-align: center;
+  display: block;
+}
